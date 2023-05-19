@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KeyBoardState</string>
+    <string name="edit_hint">Type to check keyboard state</string>
+</resources>

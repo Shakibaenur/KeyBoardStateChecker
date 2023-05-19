@@ -14,7 +14,7 @@ import java.lang.ref.WeakReference
  * Created by Shakiba E Nur on 18,May,2023
  */
 
-class SimpleUnregistrar internal constructor(
+class SimpleUnregister internal constructor(
     activity: Activity,
     globalLayoutListener: ViewTreeObserver.OnGlobalLayoutListener
 ) : UnregisterEvent{

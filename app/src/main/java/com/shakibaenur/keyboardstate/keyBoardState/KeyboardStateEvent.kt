@@ -122,7 +122,7 @@ object KeyboardStateEvent {
         }
         activityRoot.viewTreeObserver.addOnGlobalLayoutListener(layoutListener)
 
-        return SimpleUnregistrar(activity, layoutListener)
+        return SimpleUnregister(activity, layoutListener)
     }
 
     /**
